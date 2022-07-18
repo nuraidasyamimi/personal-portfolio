@@ -1,0 +1,265 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 500px;
+    background-color: burlywood;
+}
+
+.hero {
+    background-color: saddlebrown;
+    height: 100vh;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    height: 30px;
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 900px;
+    justify-content: space-around;
+}
+
+
+ul.show {
+    display: block;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color:burlywood;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.button:hover {
+    background-color:black;
+}
+
+.button:active {
+    background-color: darkgrey;
+    color:black
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.sub-section-alternative {
+    background-color: saddlebrown;
+    text-align: center;
+    color: white;
+    display: flex;
+    padding: 50px;
+    flex-direction: column
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.headshot {
+    width: 400px;
+    margin-right: 100px;
+    border-radius: 500px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.education {
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 20px black;
+    background-color: burlywood;
+}
+
+.education:hover {
+    background-color: peru;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .education-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.education-image {
+    height: 50px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+.menu-btn {
+    display: none
+}
+
+.menu-btn:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu-btn {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+    ul {
+        display: none;
+    }
+}
+
+
+.logo {
+    margin-right: 10px;
+    color: black;
+}
+
+.experience-content {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.experience-image {
+    height: 300px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.experience:hover {
+    background-color: black;
+
+}
+
+.experience {
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 20px wheat;
+    background-color:saddlebrown;
+    border-radius: 50px;
+}
+
+.front {
+    margin-left: 700px;
+}
+
+.button-li {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.button-li:hover {
+    background-color: black;
+    border-radius: 40px;
+}
+
+.button-li:active {
+    background-color: burlywood;
+    color:black
+}
+
+.sub-section-contact {
+    background-color: burlywood;
+    text-align: center;
+    color: black;
+    display: flex;
+    padding: 50px;
+    flex-direction: column 
+}
+
+.gallery {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    justify-content: space-around;
+    border-style: double;
+}
+
